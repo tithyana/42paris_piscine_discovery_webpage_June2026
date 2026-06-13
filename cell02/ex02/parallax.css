@@ -1,0 +1,65 @@
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+:root {
+    --color: white;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+.parallax-container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtv_r4cgXfwHV3ra-NSH8YblKyq89kImVllRoHCHuVuGan1kwy4CS-T5o&s=10);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color);
+    row-gap: 4rem;
+
+    text-align: center;
+}
+
+.buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    
+    align-items: flex-end;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.parallax-container2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEOdUdP3KWhaGgTXjrXqSIyMQt9WtyAN0HXH1U9-pSw&s=10);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color);
+    row-gap: 4rem;
+
+}
